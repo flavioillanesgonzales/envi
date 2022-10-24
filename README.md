@@ -123,10 +123,21 @@
           - 503 Service Unavailable: esto indica que sucedió algo inesperado en el lado del servidor
           
 ## 9. Nomenclatura de End-points (Servicios Rest)
-         - La Nomenclatura Utilizada para el llamado de los servicios rest sera el siguiente
+    - La Nomenclatura Utilizada para el llamado de los servicios rest sera el siguiente:
          
 ![](img/llamado-endpoint.png)
-         
+
+    - Use barras diagonales (/) para la jerarquía pero no barra diagonal final (/):
+    
+![](img/posmal-ejemplo.png)
+        
+![](img/posbuen-ejemplo.png)
+
+    - Evitar el uso de extensiones de archivo
+![](img/llamadoarchivosmal.png)
+
+![](img/llamadobuen-archivo.png)
+
 ## 10. Conclusión
 
 - Como indica el propio Robert C. Martin en su artículo “Getting a SOLID start” no se trata de reglas, ni leyes, ni verdades absolutas, sino más bien soluciones de sentido común a problemas comunes. Son heurísticos, basados en la experiencia: “se ha observado que funcionan en muchos casos; pero no hay pruebas de que siempre funcionen, ni de que siempre se deban seguir.”
