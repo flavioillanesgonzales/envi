@@ -122,7 +122,10 @@
           - 502 Bad Gateway: esto indica una respuesta no válida de un servidor ascendente.
           - 503 Service Unavailable: esto indica que sucedió algo inesperado en el lado del servidor
           
-## 9. Conclusión
+## 9. Nomenclatura de End-points (Servicios Rest)
+         - La Nomenclatura Utilizada para el llamado de los servicios rest sera el siguiente
+         ![](img/llamado-endpoint.jpg)
+## 10. Conclusión
 
 - Como indica el propio Robert C. Martin en su artículo “Getting a SOLID start” no se trata de reglas, ni leyes, ni verdades absolutas, sino más bien soluciones de sentido común a problemas comunes. Son heurísticos, basados en la experiencia: “se ha observado que funcionan en muchos casos; pero no hay pruebas de que siempre funcionen, ni de que siempre se deban seguir.”
 - Dice el tío Bob, que SOLID nos ayuda a categorizar lo que es un buen o mal código y es innegable que un código limpio tenderá más a salir airoso del “control de calidad de código” WTFs/Minute. Consejo: cuando estés revisando un código, lleva la cuenta de cuántas veces por minuto sale de tu boca un WTF?
